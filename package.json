@@ -3,10 +3,10 @@
     "displayName": "VSCode Archive",
     "description": "compress/decompress .zip/.vsix/.crx/.asar/.tgz/.gzip/.br/.tar",
     "version": "0.8.0",
-    "publisher": "YuTengjing",
+    "publisher": "WShon",
     "icon": "./assets/logo.png",
     "engines": {
-        "vscode": "^1.85.0"
+        "vscode": "^1.77.0"
     },
     "categories": [
         "Other"
@@ -34,7 +34,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/tjx666/vscode-archive"
+        "url": "https://github.com/wshon/vscode-archive"
     },
     "main": "./out/extension.js",
     "contributes": {
@@ -222,7 +222,7 @@
         "@types/command-exists": "^1.2.3",
         "@types/node": "^18.19.22",
         "@types/unzipper": "^0.10.9",
-        "@types/vscode": "^1.85.0",
+        "@types/vscode": "^1.77.0",
         "@vscode/vsce": "^2.24.0",
         "@yutengjing/eslint-config-typescript": "^0.5.2",
         "@yutengjing/prettier-config": "^1.1.2",
